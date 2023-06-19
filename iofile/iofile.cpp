@@ -8,9 +8,9 @@ int main()
     string baris;
 
     //memasukkan file spesifik
-    //string namafile
-    //cout << "Masukkan namafile";
-    //cin >> namafile
+    //string namafile;
+    //cout << "Masukkan namafile : ";
+    //cin >> namafile;
 
     //membuka file dalam mode menulis
     ofstream outfile;
@@ -28,6 +28,8 @@ int main()
         getline(cin, baris);
         //loop akan berhenti jika anda memasukkan karakter  q
         if (baris == "q") break;
+        //menulis dan memasukkan nilai dari 'baris' ke dalam file
+        outfile << baris << endl;
     }
 }
 
