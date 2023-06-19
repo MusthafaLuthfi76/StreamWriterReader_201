@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ioFileWithPath", "ioFileWit
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManualExeption", "ManualExeption\ManualExeption.vcxproj", "{4F2210A5-21C0-4E76-A5F9-B1124B407F4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExceptionStandard", "ExceptionStandard\ExceptionStandard.vcxproj", "{0E902081-BC58-471B-943C-376C6C9EA52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{4F2210A5-21C0-4E76-A5F9-B1124B407F4A}.Release|x64.Build.0 = Release|x64
 		{4F2210A5-21C0-4E76-A5F9-B1124B407F4A}.Release|x86.ActiveCfg = Release|Win32
 		{4F2210A5-21C0-4E76-A5F9-B1124B407F4A}.Release|x86.Build.0 = Release|Win32
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Debug|x64.ActiveCfg = Debug|x64
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Debug|x64.Build.0 = Debug|x64
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Debug|x86.Build.0 = Debug|Win32
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Release|x64.ActiveCfg = Release|x64
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Release|x64.Build.0 = Release|x64
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Release|x86.ActiveCfg = Release|Win32
+		{0E902081-BC58-471B-943C-376C6C9EA52A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
